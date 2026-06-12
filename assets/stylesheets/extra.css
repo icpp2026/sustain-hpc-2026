@@ -1,0 +1,174 @@
+/* Hide the title */
+.md-typeset h1,
+.md-content__button {
+  display: none;
+}
+
+.hero {
+  /* make full-bleed across the viewport */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  overflow: hidden;
+  /* pull hero up so it sits behind the sticky navbar/tabs */
+  margin-top: -7rem;
+  /* margin-bottom: 2rem; */
+  /* ensure hero doesn't overlap mobile sidebar/drawer */
+  z-index: 0;
+}
+
+.hero__small {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero__image__small {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.hero__overlay__small {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+.hero__title__small {
+  font-size: clamp(1.25rem, 6vw, 2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.hero__overlay__small {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.15) 45%,
+      rgba(0, 0, 0, 0)),
+    rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 -80px 120px rgba(0, 0, 0, 0.45),
+    inset 0 40px 80px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1.25rem;
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.15) 45%,
+      rgba(0, 0, 0, 0)),
+    rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 -80px 120px rgba(0, 0, 0, 0.45),
+    inset 0 40px 80px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.hero__title {
+  margin: 2rem 0 0.25rem 0;
+  font-size: clamp(1.5rem, 3.5vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.hero__subtitle {
+  margin: 1rem 0 0 0;
+  font-size: clamp(1rem, 2.25vw, 1.375rem);
+  opacity: 0.95;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+}
+
+.landingpage-heading {
+  margin-top: 0rem !important;
+}
+
+.hero__logo {
+  width: clamp(110px, 22vw, 320px);
+  height: auto;
+  margin-bottom: 0.75rem;
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.45));
+}
+
+@media (min-width: 1024px) {
+  .hero__logo {
+    width: clamp(140px, 18vw, 400px);
+  }
+}
+
+@media (max-width: 959px) {
+  .hero {
+    margin-top: -5.5rem;
+    /* smaller header on mobile */
+  }
+}
+
+/* Small phones: ensure text fits and hero has enough height */
+@media (max-width: 599px) {
+  .hero {
+    min-height: 58vh;
+  }
+
+  .hero__image {
+    height: 58vh;
+    object-fit: cover;
+  }
+
+  .hero__overlay {
+    padding: 2.25rem 1rem;
+  }
+
+  .hero__logo {
+    width: clamp(84px, 28vw, 140px);
+    margin-bottom: 0.5rem;
+  }
+
+  .hero__title {
+    margin: 1rem 0 0.25rem 0;
+    font-size: clamp(1.25rem, 6vw, 2rem);
+  }
+
+  .hero__subtitle {
+    margin: 0.5rem 0 0 0;
+    font-size: clamp(0.9rem, 4.5vw, 1.1rem);
+  }
+
+  .hero__image__small {
+    height: 10vh;
+  }
+}
