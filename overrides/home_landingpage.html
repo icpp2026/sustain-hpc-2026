@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {# Canonical URL #}
+  <link rel="canonical" href="{{ config.site_url }}" />
+
+  {# Language #}
+  <meta http-equiv="content-language" content="en" />
+  <link rel="alternate" hreflang="en" href="{{ config.site_url }}" />
+
+  {# Meta Description #}
+  <meta name="description" content="SUSTAIN-HPC 2026 - Workshop on Sustainable Computing for High-Performance and Distributed Systems, held in conjunction with ICPP 2026 in Singapore." />
+  <meta name="keywords" content="SUSTAIN-HPC, SUSTAIN-HPC 2026, sustainable computing, green computing, HPC, high performance computing, distributed systems, energy-efficient computing, carbon-aware computing, ICPP 2026, Singapore 2026" />
+  <meta name="author" content="SUSTAIN-HPC 2026 Organizers" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+  {# Open Graph / Facebook #}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ config.site_url }}" />
+  <meta property="og:title" content="SUSTAIN-HPC 2026 - Sustainable Computing for High-Performance and Distributed Systems" />
+  <meta property="og:description" content="SUSTAIN-HPC 2026 - Workshop on Sustainable Computing for High-Performance and Distributed Systems, held in conjunction with ICPP 2026 in Singapore." />
+  <meta property="og:image" content="{{ config.site_url }}assets/logo.png" />
+  <meta property="og:site_name" content="SUSTAIN-HPC 2026" />
+  <meta property="og:locale" content="en_US" />
+
+  {# Twitter Card #}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="{{ config.site_url }}" />
+  <meta name="twitter:title" content="SUSTAIN-HPC 2026 - Sustainable Computing for High-Performance and Distributed Systems" />
+  <meta name="twitter:description" content="SUSTAIN-HPC 2026 - Workshop on Sustainable Computing for High-Performance and Distributed Systems, held in conjunction with ICPP 2026 in Singapore." />
+  <meta name="twitter:image" content="{{ config.site_url }}assets/logo.png" />
+{% endblock %}
+
+{% block tabs %}
+  {{ super() }}
+  <style>
+    .md-tabs {
+      color: black;
+      background-color: initial;
+      border-bottom: none !important;
+    }
+  </style>
+  <section class="hero">
+    <img class="hero__image" src="{{ 'assets/imgs/hero1.webp' | url }}" alt="SUSTAIN-HPC 2026 hero image" />
+    <div class="hero__overlay">
+      <h1 class="hero__title">SUSTAIN-HPC 2026</h1>
+      <p class="hero__subtitle">Workshop on Sustainable Computing for High-Performance and Distributed Systems</p>
+      <p class="hero__subtitle">Held in conjunction with ICPP 2026 &middot; Singapore &middot; September 28, 2026</p>
+    </div>
+  </section>
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}

@@ -1,0 +1,46 @@
+site_name: SUSTAIN-HPC 2026 - Sustainable Computing for High-Performance and Distributed Systems
+site_url: https://icpp2026.github.io/sustain-hpc-2026/
+site_description: SUSTAIN-HPC 2026 - Workshop on Sustainable Computing for High-Performance and Distributed Systems, held in conjunction with ICPP 2026 in Singapore.
+site_author: SUSTAIN-HPC 2026 Organizers
+remote_branch: main
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/logo.ico
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - search.suggest
+  palette:
+    primary: white
+
+extra_css:
+  - assets/stylesheets/extra.css
+copyright: Copyright &copy; 2026 SUSTAIN-HPC Workshop.
+# hide the generator information in the footer
+extra:
+  generator: false
+nav:
+  - Home: index.md
+  - Call for Papers: call-for-papers.md
+  - Program: program.md
+  - Organizers: organizers.md
+plugins:
+  - search
+
+# to open link in a new tab
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
