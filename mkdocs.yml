@@ -24,6 +24,7 @@ theme:
     - search.suggest
   palette:
     primary: white
+    accent: custom
 
 extra_css:
   - assets/stylesheets/extra.css

@@ -1,3 +1,52 @@
+/* Light-green accents to emphasize "sustainable".
+   Header stays white/clean; green is used as the accent throughout. */
+:root {
+  --sustain-green: #07A047;
+  --sustain-green-dark: #05803a;
+  --sustain-green-light: #66bb6a;
+
+}
+
+/* Material defines these on the color scheme (on <body>), which beats :root.
+   Override them at the same level so links pick up the sustainable green. */
+[data-md-color-scheme="default"] {
+  --md-accent-fg-color: var(--sustain-green-dark);
+  --md-accent-fg-color--transparent: rgba(7, 160, 71, 0.1);
+  --md-typeset-a-color: var(--sustain-green);
+}
+
+/* Thin green strip along the bottom of the white header */
+.md-header {
+  border-bottom: 3px solid var(--sustain-green);
+}
+
+/* Active nav tab: green label + green underline indicator */
+.md-tabs__link--active {
+  color: var(--sustain-green) !important;
+  font-weight: 700;
+}
+
+.md-tabs__item {
+  position: relative;
+}
+
+.md-tabs__item--active > .md-tabs__link::after {
+  content: "";
+  position: absolute;
+  left: 0.6rem;
+  right: 0.6rem;
+  bottom: 0.2rem;
+  height: 2px;
+  background: var(--sustain-green);
+  border-radius: 2px;
+}
+
+/* Tab hover */
+.md-tabs__link:hover {
+  color: var(--sustain-green);
+  opacity: 1;
+}
+
 /* Hide the title */
 .md-typeset h1,
 .md-content__button {
@@ -71,12 +120,12 @@
   align-items: center;
   text-align: center;
   background: linear-gradient(to top,
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.15) 45%,
-      rgba(0, 0, 0, 0)),
-    rgba(0, 0, 0, 0.12);
-  box-shadow: inset 0 -80px 120px rgba(0, 0, 0, 0.45),
-    inset 0 40px 80px rgba(0, 0, 0, 0.2);
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.45) 45%,
+      rgba(0, 0, 0, 0.2)),
+    rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 -80px 120px rgba(0, 0, 0, 0.65),
+    inset 0 40px 80px rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 
@@ -90,12 +139,12 @@
   text-align: center;
   padding: 3rem 1.25rem;
   background: linear-gradient(to top,
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.15) 45%,
-      rgba(0, 0, 0, 0)),
-    rgba(0, 0, 0, 0.12);
-  box-shadow: inset 0 -80px 120px rgba(0, 0, 0, 0.45),
-    inset 0 40px 80px rgba(0, 0, 0, 0.2);
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.45) 45%,
+      rgba(0, 0, 0, 0.2)),
+    rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 -80px 120px rgba(0, 0, 0, 0.65),
+    inset 0 40px 80px rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 
