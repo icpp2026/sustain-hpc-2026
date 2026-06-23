@@ -36,7 +36,12 @@ All submissions should follow the **ACM proceedings format** required by ICPP wo
 
 ### Submission Instructions
 
-The submission link will be provided on this website once the submission system (EasyChair or HotCRP) is configured.
+All papers must be submitted electronically through the workshop's HotCRP submission system:
+
+<div class="submit-cta" markdown>
+[Submit Your Paper &rarr;](https://sustain-hpc26.hotcrp.com/){ .submit-button target="_blank" rel="noopener" }
+<span class="submit-cta__note">Submission site: <a href="https://sustain-hpc26.hotcrp.com/" target="_blank" rel="noopener">https://sustain-hpc26.hotcrp.com/</a></span>
+</div>
 
 ### Review Process
 

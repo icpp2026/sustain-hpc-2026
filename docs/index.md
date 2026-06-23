@@ -11,6 +11,11 @@ hide:
 ### SUSTAIN-HPC 2026 is a half-day workshop on sustainable and green computing for high-performance and distributed systems, held in conjunction with the [55th International Conference on Parallel Processing (ICPP 2026)](https://icpp2026.github.io/){:target="_blank"} in Singapore.
 </div>
 
+<div class="submit-cta" markdown>
+[Submit Your Paper &rarr;](https://sustain-hpc26.hotcrp.com/){ .submit-button target="_blank" rel="noopener" }
+<span class="submit-cta__note">Submissions are handled via HotCRP &middot; Deadline: July 10, 2026 (AoE)</span>
+</div>
+
 <div markdown>
 <h2>About the Workshop</h2>
 
