@@ -29,8 +29,8 @@ Topics of interest include, but are not limited to:
 
 ### Submission Categories
 
-- **Full papers**: 6–8 pages
-- **Short papers / Work-in-progress papers**: 2–4 pages
+- **Long papers**: up to 10 pages, including references
+- **Short papers / Work-in-progress papers**: up to 6 pages, including references
 
 All submissions should follow the **ACM proceedings format** required by ICPP workshops. Please use the ACM template located [here](https://www.acm.org/publications/proceedings-template){:target="_blank"}.
 
@@ -38,16 +38,16 @@ All submissions should follow the **ACM proceedings format** required by ICPP wo
 
 All papers must be submitted electronically through the workshop's HotCRP submission system:
 
-<div class="submit-cta" markdown>
-[Submit Your Paper &rarr;](https://sustain-hpc26.hotcrp.com/){ .submit-button target="_blank" rel="noopener" }
-<span class="submit-cta__note">Submission site: <a href="https://sustain-hpc26.hotcrp.com/" target="_blank" rel="noopener">https://sustain-hpc26.hotcrp.com/</a></span>
+<div class="submit-cta">
+  <a class="submit-button" href="https://sustain-hpc26.hotcrp.com/" target="_blank" rel="noopener">Submit Your Paper &rarr;</a>
+  <span class="submit-cta__note">Submission site: <a href="https://sustain-hpc26.hotcrp.com/" target="_blank" rel="noopener">https://sustain-hpc26.hotcrp.com/</a></span>
 </div>
 
 ### Review Process
 
 All submitted papers will undergo a peer-review process:
 
-- Each full paper will receive at least **three** independent reviews.
+- Each long paper will receive at least **three** independent reviews.
 - Each short paper, position paper, or work-in-progress paper will receive at least **two** independent reviews.
 
 Papers will be evaluated based on relevance to the workshop theme, technical quality, novelty and originality, clarity of presentation, potential impact on sustainable computing for HPC and distributed systems, appropriateness of evaluation methodology and metrics, and degree of cross-layer or system-level insight. The review process encourages constructive feedback, especially for emerging or interdisciplinary topics. The review policy (single-blind or double-blind) will follow ICPP workshop guidelines and will be clearly stated here once finalized.
