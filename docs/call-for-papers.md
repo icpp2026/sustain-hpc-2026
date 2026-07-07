@@ -50,7 +50,7 @@ All submitted papers will undergo a peer-review process:
 - Each long paper will receive at least **three** independent reviews.
 - Each short paper, position paper, or work-in-progress paper will receive at least **two** independent reviews.
 
-Papers will be evaluated based on relevance to the workshop theme, technical quality, novelty and originality, clarity of presentation, potential impact on sustainable computing for HPC and distributed systems, appropriateness of evaluation methodology and metrics, and degree of cross-layer or system-level insight. The review process encourages constructive feedback, especially for emerging or interdisciplinary topics. The review policy (single-blind or double-blind) will follow ICPP workshop guidelines and will be clearly stated here once finalized.
+Papers will be evaluated based on relevance to the workshop theme, technical quality, novelty and originality, clarity of presentation, potential impact on sustainable computing for HPC and distributed systems, appropriateness of evaluation methodology and metrics, and degree of cross-layer or system-level insight. The review process encourages constructive feedback, especially for emerging or interdisciplinary topics. The review process is **single-blind**: authors do not need to anonymize their submissions, and reviewers' identities are kept confidential.
 
 ### Publication
 
