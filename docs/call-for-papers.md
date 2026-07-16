@@ -58,7 +58,21 @@ Accepted papers will be published in the **ACM ICPP Workshops proceedings**, sub
 
 ### Important Dates (AoE)
 
+<div class="dates-columns" markdown>
+<div class="dates-column" markdown>
+**Long Papers**
+
 - Paper Submission: July 10, 2026
 - Acceptance Notification: July 20, 2026
 - Camera-ready Deadline: July 30, 2026
-- Workshop: September 28, 2026
+</div>
+<div class="dates-column" markdown>
+**Short Papers / Work-in-Progress Papers**
+
+- Paper Submission: <del class="date-old">July 10, 2026</del> <span class="date-new">July 20, 2026</span>
+- Acceptance Notification: <del class="date-old">July 20, 2026</del> <span class="date-new">July 31, 2026</span>
+- Camera-ready Deadline: <del class="date-old">July 30, 2026</del> <span class="date-new">August 7, 2026</span>
+</div>
+</div>
+
+**Workshop**: September 28, 2026

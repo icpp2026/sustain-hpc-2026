@@ -13,7 +13,8 @@ hide:
 
 <div class="submit-cta" markdown>
 [Submit Your Paper &rarr;](https://sustain-hpc26.hotcrp.com/){ .submit-button target="_blank" rel="noopener" }
-<span class="submit-cta__note">Submissions are handled via HotCRP &middot; Deadline: July 10, 2026 (AoE)</span>
+
+<span class="submit-cta__note">Long papers: July 10, 2026 &middot; Short papers: <del class="date-old">July 10</del> <span class="date-new">July 20, 2026</span> (AoE)</span>
 </div>
 
 <div markdown>
@@ -30,12 +31,28 @@ A key emphasis is the role of **emerging computing substrates** as enabling tech
 <div markdown>
 <h2>Important Dates (AoE)</h2>
 
+<div class="dates-columns" markdown>
+<div class="dates-column" markdown>
+**Long Papers**
+
 | Event | Date |
 |-------|------|
 | Paper Submission | July 10, 2026 |
 | Acceptance Notification | July 20, 2026 |
 | Camera-ready Deadline | July 30, 2026 |
-| Workshop | September 28, 2026 |
+</div>
+<div class="dates-column" markdown>
+**Short Papers / Work-in-Progress Papers**
+
+| Event | Date |
+|-------|------|
+| Paper Submission | <del class="date-old">July 10, 2026</del> <span class="date-new">July 20, 2026</span> |
+| Acceptance Notification | <del class="date-old">July 20, 2026</del> <span class="date-new">July 31, 2026</span> |
+| Camera-ready Deadline | <del class="date-old">July 30, 2026</del> <span class="date-new">August 7, 2026</span> |
+</div>
+</div>
+
+**Workshop**: September 28, 2026
 
 </div>
 

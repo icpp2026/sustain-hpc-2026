@@ -92,6 +92,31 @@
   opacity: 0.75;
 }
 
+/* Struck-through original date next to an extended deadline */
+.date-old {
+  opacity: 0.55;
+  margin-right: 0.4em;
+}
+
+.date-new {
+  color: var(--sustain-green-dark);
+  font-weight: 700;
+}
+
+/* Long paper / short paper date tables side by side */
+.dates-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.dates-column {
+  flex: 0 1 auto;
+  min-width: 280px;
+}
+
 @media (max-width: 599px) {
   .md-typeset .submit-button,
   .md-typeset .submit-button:visited {
