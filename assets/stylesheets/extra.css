@@ -294,3 +294,31 @@
     height: 10vh;
   }
 }
+
+/* Workshop programme schedule table */
+.program-table table {
+  width: 100%;
+}
+
+.program-table td:first-child {
+  white-space: nowrap;
+  font-weight: 700;
+  color: var(--sustain-green-dark);
+}
+
+.program-table td:nth-child(2) {
+  white-space: nowrap;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--sustain-green);
+}
+
+.program-table td small {
+  display: block;
+  margin-top: 0.15em;
+  font-size: 0.82em;
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+}
