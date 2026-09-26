@@ -29,8 +29,13 @@ Each paper sharing slot consists of a **10-minute talk** followed by **5 minutes
 
 ### Keynote Speakers
 
-- **Prof. Eric Chi Lik Lo** — The Chinese University of Hong Kong (CUHK)
-- **Prof. Haiying Shen** — University of Virginia
+#### Prof. Eric Chi Lik Lo — The Chinese University of Hong Kong (CUHK)
+
+Eric Lo is currently an Associate Professor in the Department of Computer Science and Engineering at the Chinese University of Hong Kong (CUHK). He earned his PhD in Computer Science from ETH Zurich and has previously worked at both Google and Microsoft. His recent research focuses on vector databases, serving systems for AI agents, and AI auto-research on system components. He is currently the PC Chair of ACM SoCC 2026 and an Associate Editor of The VLDB Journal. His work has received recognition in the form of awards and honorable mentions at conferences such as VLDB 2005 and ICDE 2012. In 2020, he received the ACM SIGMOD Research Highlight Award.
+
+#### Prof. Haiying Shen — University of Virginia
+
+Dr. Haiying Shen is an Associate Professor in the Department of Computer Science at the University of Virginia. During her 2024 sabbatical, she served as a Consulting Researcher at Microsoft in Redmond, WA, where she focused on LLM systems. Her research area is distributed systems, with a focus on ML/LLM systems, cloud computing, edge computing, and cyber-physical systems (CPS). Dr. Shen has made significant contributions to her field, with an H-index of 53 and over 380 publications in top conferences and journals such as SIGCOMM, OSDI, EuroSys, SoCC, ASPLOS, CoNext, Infocom, IEEE/ACM Transactions on Networking (TON), IEEE Transactions on Parallel and Distributed Systems (TPDS), and IEEE Transactions on Mobile Computing (TMC). Her work has received the George N. Saridis Best Transactions Paper Award (2021), best paper awards at CloudCom (2016) and NAS (2018), a best paper runner-up award at ICCCN (2015), best paper award nominations at ICPP (2021), MASS (2011), and CCGrid (2009), and a best-in-session presentation award at INFOCOM (2017). She has also received several prestigious awards, including the Microsoft Faculty Fellowship Award (2010), IEEE TCSC Mid-Career Award (2015), IBM Faculty Award (2015), NSF CAREER Award (2013), and Sigma Xi Clemson Chapter Young Investigator Award (2013). Dr. Shen serves as an Associate Editor for TON, TMC, and IEEE Networking Letters (NL). She also has served as program co-chair and general co-chair for several international conferences and has participated in the program committees of numerous leading conferences.
 
 ### Invited Speakers
 
