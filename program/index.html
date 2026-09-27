@@ -677,12 +677,12 @@
 <tr>
 <td>09:05–09:35</td>
 <td>Keynote 1</td>
-<td><strong>Prof. Eric Chi Lik Lo</strong><br><small>The Chinese University of Hong Kong (CUHK)</small></td>
+<td><strong>High-Performance Indexing on Memory-Disaggregated Systems: When a Compiler Can Optimize, Why Burn LLM Tokens?</strong><br>Prof. Eric Chi Lik Lo · The Chinese University of Hong Kong (CUHK)</td>
 </tr>
 <tr>
 <td>09:35–10:00</td>
 <td>Invited Talk 1</td>
-<td><strong>Prof. Xinyu Chen</strong><br><small>HKUST(GZ) · Microelectronics Thrust</small></td>
+<td><strong>Approximate Computing for AI Accelerator Design</strong><br>Prof. Xinyu Chen · HKUST(GZ) · Microelectronics Thrust</td>
 </tr>
 <tr>
 <td>10:00–10:15</td>
@@ -702,12 +702,12 @@
 <tr>
 <td>11:00–11:30</td>
 <td>Keynote 2</td>
-<td><strong>Prof. Haiying Shen</strong><br><small>University of Virginia</small></td>
+<td><strong>Sustainable AI Serving Through Resource-Aware Scheduling</strong><br>Prof. Haiying Shen · University of Virginia</td>
 </tr>
 <tr>
 <td>11:30–11:55</td>
 <td>Invited Talk 2</td>
-<td><strong>Dr. Kong Jian Feng</strong><br><small>Senior Scientist · A*STAR Institute of Advanced Intelligence and Computing</small></td>
+<td><strong>Title to be announced (quantum computing)</strong><br>Dr. Kong Jian Feng · A*STAR Institute of Advanced Intelligence and Computing</td>
 </tr>
 <tr>
 <td>11:55–12:10</td>
@@ -730,17 +730,26 @@
 <p>Each paper sharing slot consists of a <strong>10-minute talk</strong> followed by <strong>5 minutes of Q&amp;A</strong>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Talk titles and abstracts for the keynote and invited talks will be added to this page as they become available.</p>
+<p>The title of Dr. Kong Jian Feng's invited talk and abstracts for the invited talks will be added as they become available.</p>
 </div>
 <h3 id="keynote-speakers">Keynote Speakers</h3>
 <h4 id="prof-eric-chi-lik-lo-the-chinese-university-of-hong-kong-cuhk">Prof. Eric Chi Lik Lo — The Chinese University of Hong Kong (CUHK)</h4>
-<p>Eric Lo is currently an Associate Professor in the Department of Computer Science and Engineering at the Chinese University of Hong Kong (CUHK). He earned his PhD in Computer Science from ETH Zurich and has previously worked at both Google and Microsoft. His recent research focuses on vector databases, serving systems for AI agents, and AI auto-research on system components. He is currently the PC Chair of ACM SoCC 2026 and an Associate Editor of The VLDB Journal. His work has received recognition in the form of awards and honorable mentions at conferences such as VLDB 2005 and ICDE 2012. In 2020, he received the ACM SIGMOD Research Highlight Award.</p>
+<p><strong>Talk title:</strong> High-Performance Indexing on Memory-Disaggregated Systems: When a Compiler Can Optimize, Why Burn LLM Tokens?</p>
+<p><strong>Abstract:</strong> Deploying high-performance index structures on memory-disaggregated systems such as CXL and RDMA often requires painstaking tuning and code adaptation. Recent proposals advocate LLM-assisted auto-optimization; however, for this task, such approaches are often overkill. They incur substantial token and GPU costs, require many iterations, and depend on carefully crafted human specifications to guide the LLM.</p>
+<p>In this talk, I present a compiler-driven alternative that eliminates both LLM involvement and the need for human-provided specifications. Our system takes existing, battle-tested index implementations as input, analyzes their access patterns, and automatically derives far-memory placement and access strategies. It operates fully automatically, without manual tuning or prompt engineering.</p>
+<p>We show that this approach can robustly optimize industrial-strength index structures (including B+ trees, hash tables, and skip lists), matching or even surpassing hand-optimized designs such as DEX and SepHash across both RDMA- and CXL-based systems. By avoiding LLMs entirely, it removes token and GPU overhead, reduces complexity, and delivers a solution that is more predictable, easier to deploy, and significantly more sustainable in terms of energy and carbon footprint. I will present the key techniques and experimental results, and argue that, for many modern memory-disaggregated systems, a well-designed compiler is a more practical and efficient solution than LLM-based optimization.</p>
+<p><strong>Biography:</strong> Eric Lo is currently an Associate Professor in the Department of Computer Science and Engineering at the Chinese University of Hong Kong (CUHK). He earned his PhD in Computer Science from ETH Zurich and has previously worked at both Google and Microsoft. His recent research focuses on vector databases, serving systems for AI agents, and AI auto-research on system components. He is currently the PC Chair of ACM SoCC 2026 and an Associate Editor of The VLDB Journal. His work has received recognition in the form of awards and honorable mentions at conferences such as VLDB 2005 and ICDE 2012. In 2020, he received the ACM SIGMOD Research Highlight Award.</p>
 <h4 id="prof-haiying-shen-university-of-virginia">Prof. Haiying Shen — University of Virginia</h4>
-<p>Dr. Haiying Shen is an Associate Professor in the Department of Computer Science at the University of Virginia. During her 2024 sabbatical, she served as a Consulting Researcher at Microsoft in Redmond, WA, where she focused on LLM systems. Her research area is distributed systems, with a focus on ML/LLM systems, cloud computing, edge computing, and cyber-physical systems (CPS). Dr. Shen has made significant contributions to her field, with an H-index of 53 and over 380 publications in top conferences and journals such as SIGCOMM, OSDI, EuroSys, SoCC, ASPLOS, CoNext, Infocom, IEEE/ACM Transactions on Networking (TON), IEEE Transactions on Parallel and Distributed Systems (TPDS), and IEEE Transactions on Mobile Computing (TMC). Her work has received the George N. Saridis Best Transactions Paper Award (2021), best paper awards at CloudCom (2016) and NAS (2018), a best paper runner-up award at ICCCN (2015), best paper award nominations at ICPP (2021), MASS (2011), and CCGrid (2009), and a best-in-session presentation award at INFOCOM (2017). She has also received several prestigious awards, including the Microsoft Faculty Fellowship Award (2010), IEEE TCSC Mid-Career Award (2015), IBM Faculty Award (2015), NSF CAREER Award (2013), and Sigma Xi Clemson Chapter Young Investigator Award (2013). Dr. Shen serves as an Associate Editor for TON, TMC, and IEEE Networking Letters (NL). She also has served as program co-chair and general co-chair for several international conferences and has participated in the program committees of numerous leading conferences.</p>
+<p><strong>Talk title:</strong> Sustainable AI Serving Through Resource-Aware Scheduling</p>
+<p><strong>Abstract:</strong> Generative AI is placing growing demands on computing infrastructure as models grow larger and services reach more users. Interactive applications must meet latency targets while using compute, memory, and energy efficiently. Agentic applications add long sequences of model and tool calls, making resource scheduling across tasks increasingly important.</p>
+<p>This talk presents a vision for resource-aware AI serving across several scales. Drawing on our recent work, I will discuss scheduling at the cluster and request levels, coordinating retraining and inference, and managing KV caches for agentic workloads. These examples motivate future research on scheduling under uncertain demand and coordinating compute and memory across distributed infrastructure. The goal is to make AI serving more sustainable and scalable while preserving performance and application quality.</p>
+<p><strong>Biography:</strong> Dr. Haiying Shen is an Associate Professor in the Department of Computer Science at the University of Virginia. During her 2024 sabbatical, she served as a Consulting Researcher at Microsoft in Redmond, WA, where she focused on LLM systems. Her research area is distributed systems, with a focus on ML/LLM systems, cloud computing, edge computing, and cyber-physical systems (CPS). Dr. Shen has made significant contributions to her field, with an H-index of 53 and over 380 publications in top conferences and journals such as SIGCOMM, OSDI, EuroSys, SoCC, ASPLOS, CoNext, Infocom, IEEE/ACM Transactions on Networking (TON), IEEE Transactions on Parallel and Distributed Systems (TPDS), and IEEE Transactions on Mobile Computing (TMC). Her work has received the George N. Saridis Best Transactions Paper Award (2021), best paper awards at CloudCom (2016) and NAS (2018), a best paper runner-up award at ICCCN (2015), best paper award nominations at ICPP (2021), MASS (2011), and CCGrid (2009), and a best-in-session presentation award at INFOCOM (2017). She has also received several prestigious awards, including the Microsoft Faculty Fellowship Award (2010), IEEE TCSC Mid-Career Award (2015), IBM Faculty Award (2015), NSF CAREER Award (2013), and Sigma Xi Clemson Chapter Young Investigator Award (2013). Dr. Shen serves as an Associate Editor for TON, TMC, and IEEE Networking Letters (NL). She also has served as program co-chair and general co-chair for several international conferences and has participated in the program committees of numerous leading conferences.</p>
 <h3 id="invited-speakers">Invited Speakers</h3>
 <ul>
-<li><strong>Prof. Xinyu Chen</strong> — Microelectronics Thrust, The Hong Kong University of Science and Technology (Guangzhou)</li>
-<li><strong>Dr. Kong Jian Feng</strong> — Senior Scientist, A*STAR Institute of High Performance Computing</li>
+<li><strong>Prof. Xinyu Chen</strong> — Microelectronics Thrust, The Hong Kong University of Science and Technology (Guangzhou)<br />
+<strong>Talk title:</strong> Approximate Computing for AI Accelerator Design</li>
+<li><strong>Dr. Kong Jian Feng</strong> — Senior Scientist, A*STAR Institute of High Performance Computing<br />
+<strong>Talk title:</strong> To be announced (quantum computing)</li>
 </ul>
 <h3 id="accepted-papers">Accepted Papers</h3>
 <ul>
