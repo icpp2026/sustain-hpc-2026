@@ -53,10 +53,17 @@ This talk presents a vision for resource-aware AI serving across several scales.
 
 ### Invited Speakers
 
-- **Prof. Xinyu Chen** — Microelectronics Thrust, The Hong Kong University of Science and Technology (Guangzhou)  
-  **Talk title:** Approximate Computing for AI Accelerator Design
-- **Dr. Kong Jian Feng** — Senior Scientist, A\*STAR Institute of High Performance Computing  
-  **Talk title:** To be announced (quantum computing)
+#### Prof. Xinyu Chen — The Hong Kong University of Science and Technology (Guangzhou)
+
+**Talk title:** Approximate Computing for AI Accelerator Design
+
+**Biography:** Xinyu Chen is an Assistant Professor of the Microelectronics Thrust at the Hong Kong University of Science and Technology (Guangzhou). Before joining HKUST(GZ), he held the position of Principal Engineer at Hisilicon, where he worked on hardware accelerator design for the next-generation DPU. He received his Ph.D. degree in Computer Science from National University of Singapore in 2022. His research aims to build sustainable computing solutions by harnessing the potential of hardware acceleration and system optimization. His research results are published in top venues such as MICRO, ISCA, FPGA, DAC, and ATC.
+
+#### Dr. Kong Jian Feng — A\*STAR Institute of Advanced Intelligence and Computing
+
+**Talk title:** To be announced (quantum computing)
+
+**Biography:** Jian Feng is Senior Scientist at the A\*STAR Institute of Advanced Intelligence and Computing (IAIC) and serves as Deputy Head of the High Performance Computing (HPC) Chapter. He obtained his Ph.D. in Physics from the Massachusetts Institute of Technology (MIT), where he conducted research in condensed matter theory. His current research interests span quantum machine learning, hybrid quantum algorithms for applications such as combinatorial optimization, and simulation of quantum many-body systems.
 
 ### Accepted Papers
 
