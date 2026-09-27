@@ -15,7 +15,7 @@ SUSTAIN-HPC 2026 is a **half-day workshop** held on the morning of **September 2
 | 10:15–10:30 | Paper Sharing | **Portable to Efficient: Auto-Tuning Hardware-Agnostic GPU Kernels in Julia** |
 | 10:30–11:00 | Break | **Tea Break** |
 | 11:00–11:30 | Keynote 2 | **Prof. Haiying Shen**<br><small>University of Virginia</small> |
-| 11:30–11:55 | Invited Talk 2 | **Dr. Kong Jian Feng**<br><small>Senior Scientist · A\*STAR Institute of High Performance Computing</small> |
+| 11:30–11:55 | Invited Talk 2 | **Dr. Kong Jian Feng**<br><small>Senior Scientist · A\*STAR Institute of Advanced Intelligence and Computing</small> |
 | 11:55–12:10 | Paper Sharing | **Spatiotemporal Load Balancing for Near-Memory Accelerated Databases by Partial Resharding** |
 | 12:10–12:25 | Paper Sharing | **Energy Efficiency in Actor Systems: A Comparative Study of Akka and Elixir** |
 | 12:25–12:30 | Closing | **Closing Remarks** |
